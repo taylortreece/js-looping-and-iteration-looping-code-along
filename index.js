@@ -5,3 +5,10 @@ function writeCards(array, event) {
     }
     return thankYouArray
 }
+
+function countDown(num) {
+    while (num >= 0) {
+        console.log(num)
+        num = num - 1
+    }
+}
